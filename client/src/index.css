@@ -1,0 +1,279 @@
+@import "~materialize-css/dist/css/materialize.min.css"; /* унифицировання версия materialize-а */
+
+input.yellow-input {
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.yellow-input + label {
+    color: #ffffff!important;
+}
+
+input.yellow-input:focus + label {
+    color: #ffeb3b!important;
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid #ffeb3b!important;
+    box-shadow: 0 1px 0 0 #ffeb3b!important;
+}
+
+.AuthDiv {
+    margin: 20em;
+}
+
+/* ---------------------   MainPage */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+#main {
+    padding: 0;
+    border-right: none;
+}
+
+.row, #main {
+    transition: margin-left .4s;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
+
+.div-1::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.div-1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.div-black {
+    background-color: #282A35!important;
+    color: white!important;
+}
+
+.div-grey {
+    background-color: lightskyblue!important;
+    color: black!important;
+}
+
+.div-light-green {
+   background-color:#D9EEE1!important
+}
+
+.div-padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+
+h1 {
+    display: block;
+    margin: 2px 0 -20px 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div-context {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-col.l6 {
+    width: 49.99999%;
+}
+
+.div-col {
+    float: left;
+}
+
+.div-center {
+    text-align: center!important;
+}
+
+.div1 {
+    padding: 3%;
+}
+
+.h1-size {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.p-size {
+    font-size: 19px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.NavLink-button {
+    border:none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    
+}
+
+.MoveToEx {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.grey-color {
+    background-color: #E7E9EB;
+    color: black;
+}
+
+.div-round {
+    border-radius: 5px;
+}
+
+.div-card, .div-card-2 {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.div-html-code {
+    font-family: Consolas,"courier new";
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font-size: 15px;
+}
+
+.green-border {
+    border-left: 4px solid #04AA6D;
+}
+
+.tagnamecolor {
+    color:brown;
+}
+
+.tagcolor, .sqlwordcolor {
+    color:mediumblue;
+}
+
+.attributecolor {
+    color: red;
+}
+
+.sqlcolor, .jscolor {
+    color:black;
+}
+
+.div-sql-code {
+    font-family: Consolas,"courier new";
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font-size: 15px;
+    height: 180px;
+}
+
+.div-light-yellow {
+    
+    background-color: lightyellow!important;
+    color: black!important;
+}
+
+.div-js-code {
+    font-family: Consolas,"courier new";
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font-size: 15px;
+}
+
+.jswordcolor {
+    color: purple!important;
+}
+
+.jsnumcolor {
+    color: orange!important;
+}
+
+.jstextcolor {
+    color: green!important;
+}
+
+
+/* ---------------------   ExPage */
+
+
+input.red-inputSQL {
+    border-bottom: 1px solid lightpink!important;
+    box-shadow: 0 1px 0 0 lightpink!important;
+    background-color: lightyellow!important;
+}
+
+input.red-inputSQL:focus {
+    border-bottom: 1px solid lightyellow!important;
+    box-shadow: 0 1px 0 0 lightyellow!important;
+}
+
+.div-1Sql {
+    max-width: auto;
+    max-height: 250px;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.div1SQL {
+    padding: 0;
+}
+
+.h1-sizeSQL {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.p-sizeSQL {
+    display: none;
+    font-size: 18px;
+}
+
+.p-Admin {
+    padding-left: 7px!important;
+}
+
+.QListbtn{
+    padding: 2%;
+    margin-left: 47%;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "diploma",
+  "version": "1.0.0",
+  "description": "StudyingWebSite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Alexander Shelepenko <obstract345@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mongoose": "^5.12.3",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/materialize-css": "^1.0.9",
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
